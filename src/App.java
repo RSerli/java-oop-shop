@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Prodotto prodotto1 = new Prodotto();
+        Prodotto prodotto1 = new Prodotto("Mela", "Frutto", 1, 20);
 
         prodotto1.mostraInfo();
 
